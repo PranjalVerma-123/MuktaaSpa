@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MuktaaSpa/static/css/main.6b7cb7c7.css",
+    "main.js": "/MuktaaSpa/static/js/main.52ae3cc0.js",
+    "static/media/Muktaa_Broucher.pdf": "/MuktaaSpa/static/media/Muktaa_Broucher.1a492021e73efeb0b525.pdf",
+    "index.html": "/MuktaaSpa/index.html",
+    "main.6b7cb7c7.css.map": "/MuktaaSpa/static/css/main.6b7cb7c7.css.map",
+    "main.52ae3cc0.js.map": "/MuktaaSpa/static/js/main.52ae3cc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b7cb7c7.css",
+    "static/js/main.52ae3cc0.js"
+  ]
+}
