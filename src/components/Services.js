@@ -9,7 +9,7 @@ export default function Services() {
   return (
     <>
     <div className='container mt-10'>
-      <div className="container p-5">
+      <div className="container p-3">
         <div className="row text-center">
           <div className='col-lg-2 col-md-3 col-4 icon-link'>
 

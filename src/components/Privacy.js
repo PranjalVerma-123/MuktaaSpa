@@ -3,7 +3,7 @@ import React from 'react'
 export default function Privacy() {
     return (
         <>
-        <div className='mt-10 mb-5'>
+        <div className='mt-10 mb-10'>
             <div className='container '>
                 <h2 className='mb-4 headings'>PRIVACY POLICY</h2>
                 <hr />

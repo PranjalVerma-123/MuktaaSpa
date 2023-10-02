@@ -14,12 +14,12 @@ export default function Navbar() {
         <div>
             <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <div className='container '>
-                    <div className='col-sm-3 col-md-2 col-xs-2'>
+                    <div className='col-sm-3 col-md-2 col-2'>
                     <Link className="navbar-brand " to="/">
                         <img className='' src="../photos/logo_1.jpg" alt="" />
                     </Link>
                     </div>
-                    <div className="col-sm-9 col-md-10 col-xs-10">
+                    <div className="col-sm-9 col-md-10 col-10">
                         <div className='float-end text-end'>
                     <button ref={ref} className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon ">

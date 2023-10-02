@@ -28,7 +28,7 @@ export default function AboutUs() {
   
   return (
     <>
-      <div className='mt-10'>
+      <div className='mt-10 mb-10'>
         <Carousel />
         {/* Thubnails */}
         <div className="container mt-5 mb-5">
@@ -56,16 +56,16 @@ export default function AboutUs() {
               </div>
             </div>
             {/* Certificates */}
-            <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 my-1" >
+            <div className="col-lg-3 col-md-6 col-sm-6 col-6 my-1" >
               <img src="../photos/certificates/2018.jpeg" alt="Mukta Best Spa 50 Certificate" className="img-responsive img-fluid" />
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 my-1" >
+            <div className="col-lg-3 col-md-6 col-sm-6 col-6 my-1" >
               <img src="../photos/certificates/2019.jpeg" alt="Mukta Best Spa 50 Certificate" className="img-responsive img-fluid" />
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 my-1" >
+            <div className="col-lg-3 col-md-6 col-sm-6 col-6 my-1" >
               <img src="../photos/certificates/2018-1.jpeg" alt="Mukta Best Spa 50 Certificate" className="img-responsive img-fluid" />
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 my-1" >
+            <div className="col-lg-3 col-md-6 col-sm-6 col-6 my-1" >
               <img src="../photos/certificates/2019-1.jpeg" alt="Mukta Best Spa 50 Certificate" className="img-responsive img-fluid" />
             </div>
 
@@ -84,7 +84,7 @@ export default function AboutUs() {
 
               {/* Google */}
               <div className="row">
-                <div className="col-lg-3 col-sm-6">
+                <div className="col-lg-3 col-sm-6 col-6">
                   <div className="thumbnail">
                     <h4 className='mb-2 text-center'>Google</h4>
                     <Link to="https://goo.gl/WuPwt6" target="_blank"> <img src="../photos/certificates/google3.png" className=" img-fluid border" alt="Google Review" /> </Link>
@@ -92,7 +92,7 @@ export default function AboutUs() {
                 </div>
 
                 {/* Tripadvisor */}
-                <div className="col-lg-3 col-sm-6">
+                <div className="col-lg-3 col-sm-6 col-6">
                   <div className="thumbnail" >
                     <Link target="_blank" to="https://www.tripadvisor.in/Attraction_Review-g304554-d13174371-Reviews-Muktaa_The_Wellness_Clinic_Luxury_Spa_Marine_Drive-Mumbai_Maharashtra.html" >
                       <img className='img-fluid' src="../photos/certificates/mukta_tripadvisor.jpg" alt="TripAdvisor" />
@@ -115,17 +115,17 @@ export default function AboutUs() {
                 </div>
               </div>
               <div className='row my-5'>
-                <div className="col-md-4">
+                <div className="col-md-4 col-4">
                   <div className='thumbnail'>
                     <img src="../photos/certificates/mukta_who_certificate.jpg" alt="Mukta Tripadvisor" className=" img-fluid" />
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 col-4">
                   <div className='thumbnail'>
                     <img src="../photos/certificates/mukta_naturopathy_certificate.jpg" alt="Mukta Tripadvisor" className=" img-fluid" />
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div  className="col-md-4 col-4">
                   <div className='thumbnail'>
                     <img src="../photos/certificates/mukta_who_certificate.jpg" alt="Mukta Tripadvisor" className=" img-fluid" />
                   </div>
@@ -140,25 +140,25 @@ export default function AboutUs() {
             </div>
             <div className="row mt-5">
               <div className="col-md-4  box2">
-                <h4 className='headings text-start'>NewsLetter SignUp</h4>
+                <h4 className='headings text-start box3'>NewsLetter SignUp</h4>
                 <div className="container text-center row">
                 <form ref={form} className='row mx-1' autoComplete="off" onSubmit={sendEmail}>          
                         <input type="email" className="form-control box text-start" placeholder="Your Email" id="email" aria-describedby="emailHelp" name="Email" value={message.Email} onChange={onChange} required />
                         
-                        <button type="submit" className="btn footer box headings-white my-1 ">Send</button>
+                        <button type="submit" className="btn footer box headings-white my-1 mx-auto ">Send</button>
                         
                 </form>
                 </div>
                 <h4 className="headings text-start">Enquiry Form</h4>
                 <div className="box3"></div>
                 <div >< Enquiry  /></div>
-                <div>Visitor Count : 20k+</div>
+                <div className='mb-3'>Visitor Count : 20k+</div>
                 
                 
               </div>
-              <div className="col-md-8 ">
+              <div className="col-md-8 mb-5">
                 <div className="row">
-                  <h4 className='headings text-start'> Our Address</h4>
+                  <h4 className='headings text-start box3'> Our Address</h4>
                   {/* Marine Drive */}
                   <div className="col-md-4 text-start my-2">
                     <h5 className="headings">Marine Drive</h5>
@@ -166,7 +166,7 @@ export default function AboutUs() {
                       1st Floor, N. K. M. International House, <br />
                       178 Backbay Reclamation, Babubhai Chinai Road, Marine Drive, Mumbai - 400 020
                     </p>
-                    <Link to="/reachus" className="btn footer headings-white ">Load More...</Link>
+                    <Link to="/reachus" className="btn footer headings-white mx-auto">Load More...</Link>
 
                   </div>
                   <div className="col-md-4 text-start my-2">
@@ -174,7 +174,7 @@ export default function AboutUs() {
                   <p className="p-small"> <strong> SUKHDAA - The Wellness Clinic &amp; Cultural Spa </strong> <br />
                       106, Ramnimi building, Above sbi bank,  Mandlik Road, Behind the Tajmahal palace, Opp. Colaba police station, Colaba, Mumbai - 400 001. 
                     </p>
-                    <Link to="/reachus"  className="btn footer headings-white ">Load More...</Link>
+                    <Link to="/reachus"  className="btn footer headings-white mx-auto">Load More...</Link>
                   </div>
                   
                   {/* Versova */}
@@ -183,7 +183,7 @@ export default function AboutUs() {
                     <p className="p-small"> <strong> MUKTAA - The Wellness Clinic &amp; Luxury Spa </strong> <br />
                       Groud. floor, Inch by Inch Club, Next to D-mart, Off Yari Road, Versova, Andheri(West)<br/> Mumbai - 40061.
                     </p>
-                    <Link to="/reachus"  className="btn footer headings-white ">Load More...</Link>
+                    <Link to="/reachus"  className="btn footer headings-white mx-auto">Load More...</Link>
 
                   </div>
                   {/* Thane */}
@@ -192,7 +192,7 @@ export default function AboutUs() {
                     <p className="p-small"> <strong> MUKTAA - The Wellness Clinic &amp; Luxury Spa </strong> <br />
                       201, Aggarwal Arcade, Khewra Cir Marg, opposite Acme Ozone, Manpada, Thane West, Thane, Mumbai - 400610 
                     </p>
-                    <Link to="/reachus"  className="btn footer headings-white ">Load More...</Link>
+                    <Link to="/reachus"  className="btn footer headings-white mx-auto">Load More...</Link>
 
                   </div>
                   {/* Goregaon */}
@@ -201,7 +201,7 @@ export default function AboutUs() {
                     <p className="p-small "> <strong> MUKTAA - The Wellness Clinic &amp; Luxury Spa </strong> <br />
                       906, DLH park, Opp. Mtnl Office, S.V. Road, Goregaon (west) <br/> Mumbai- 400062
                     </p>
-                    <Link to="/reachus"  className="btn footer headings-white ">Load More...</Link>
+                    <Link to="/reachus"  className="btn footer headings-white mx-auto">Load More...</Link>
 
                   </div>
                   {/* Colaba */}

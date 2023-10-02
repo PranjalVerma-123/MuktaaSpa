@@ -11,7 +11,7 @@ export default function ReachUs() {
 
 
   return (
-    <div className='mt-10'>
+    <div className='mt-10 mb-10'>
       <div className="container text-center">
         <h2 className='headings'>LOCATIONS</h2>
         <h5>HOW TO FIND US</h5>
@@ -22,7 +22,7 @@ export default function ReachUs() {
       <div className="container text-start mb-5">
         <div className="row">
           {/* marine Dive */}
-          <div className="col-lg-4 col-md-6 col-sm-12 p-2">
+          <div className="col-xl-4 col-lg-6 col-sm-12 p-2">
             <h4 className='headings '>MARINE DRIVE</h4>
             <div className='box'>
 
@@ -51,7 +51,7 @@ export default function ReachUs() {
           </div>
 
           {/* GoreGaon */}
-          <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12  p-2">
+          <div className="col-xl-4 col-lg-6 col-sm-12 col-xs-12  p-2">
             <h4 className='headings '>GOREGAON WEST</h4>
             <div className='box'>
 
@@ -80,7 +80,7 @@ export default function ReachUs() {
           </div>
 
           {/* Versova */}
-          <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12  p-2">
+          <div className="col-xl-4 col-lg-6 col-sm-12 col-xs-12  p-2">
             <h4 className='headings '>VERSOVA</h4>
             <div className="box">
 
@@ -109,7 +109,7 @@ export default function ReachUs() {
 
 
           {/* THANE */}
-          <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12  p-2">
+          <div className="col-xl-4 col-lg-6 col-sm-12 col-xs-12  p-2">
             <h4 className='headings '>THANE</h4>
             <div className="box">
 
@@ -134,7 +134,7 @@ export default function ReachUs() {
           </div>
 
           {/* COLABA */}
-          <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12  p-2">
+          <div className="col-xl-4 col-lg-6 col-sm-12 col-xs-12  p-2">
             <h4 className='headings '>COLABA</h4>
             <div className="box">
 
@@ -164,7 +164,7 @@ export default function ReachUs() {
 
           {/* Stay Tuned */}
 
-          <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12  p-2">
+          <div className="col-xl-4 col-lg-6 col-sm-12 col-xs-12  p-2">
             <h4 className='headings'>COMMING SOON!</h4>
             <div className="box p-2">
               <p className='p-reachus fw-bold'>MUKTAA - The Wellness Clinic & Luxury Spa</p>

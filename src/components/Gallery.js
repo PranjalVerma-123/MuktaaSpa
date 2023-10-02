@@ -3,7 +3,7 @@ import React from 'react'
 export default function Gallery() {
   return (
 
-    <div className="container mt-10 mb-5">
+    <div className="container mt-10 mb-10">
       <div className="row">
         <div className="col-md-4 ">
           <div className="m-2">
