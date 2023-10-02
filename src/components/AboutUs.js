@@ -187,7 +187,7 @@ export default function AboutUs() {
 
                   </div>
                   {/* Thane */}
-                  <div className="col-md-4 text-start my-2">
+                  <div className="col-md-4  text-start my-2">
                   <h5 className="headings">Thane</h5>
                     <p className="p-small"> <strong> MUKTAA - The Wellness Clinic &amp; Luxury Spa </strong> <br />
                       201, Aggarwal Arcade, Khewra Cir Marg, opposite Acme Ozone, Manpada, Thane West, Thane, Mumbai - 400610 
@@ -196,7 +196,7 @@ export default function AboutUs() {
 
                   </div>
                   {/* Goregaon */}
-                  <div className="col-md-4 text-start my-2">
+                  <div className="col-md-4  text-start my-2">
                     <h5 className="headings">Goregaon</h5>
                     <p className="p-small "> <strong> MUKTAA - The Wellness Clinic &amp; Luxury Spa </strong> <br />
                       906, DLH park, Opp. Mtnl Office, S.V. Road, Goregaon (west) <br/> Mumbai- 400062
